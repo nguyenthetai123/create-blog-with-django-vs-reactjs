@@ -1,12 +1,11 @@
 import FullWidthLayout from "../../hocs/layouts/FullWidthLayout";
 import { connect } from "react-redux";
 
-function Home({
-}){
+function Home(){
 
     return(
         <FullWidthLayout>
-            Home
+            <div>home</div>
         </FullWidthLayout>
     )
 }
